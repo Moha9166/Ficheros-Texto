@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         String archivo = JOptionPane.showInputDialog("Introduce ruta del archivo");
+        System.out.println("Salida del archivo: "+archivo);
         System.out.println(jtype(archivo));
 
     }
