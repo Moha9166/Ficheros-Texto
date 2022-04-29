@@ -9,10 +9,10 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         String archivo = JOptionPane.showInputDialog("Introduce ruta del archivo");
-        System.out.println(type(archivo));
+        System.out.println(jtype(archivo));
 
     }
-    public static String type(String nomArch){
+    public static String jtype(String nomArch){
         StringBuilder contenido =  new StringBuilder();
         int car;
         try (FileReader fl = new FileReader(nomArch)){
